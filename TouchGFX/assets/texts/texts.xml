@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.22.1">
+  <Languages>
+    <Language Id="GB" />
+  </Languages>
+  <Texts>
+    <TextGroup Id="Group1" />
+    <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_OMG4" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">50</Translation>
+      </Text>
+      <Text Id="__SingleUse_NFHR" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">30</Translation>
+      </Text>
+      <Text Id="__SingleUse_GUNP" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">12</Translation>
+      </Text>
+      <Text Id="__SingleUse_4PYB" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">60</Translation>
+      </Text>
+      <Text Id="__SingleUse_S2QL" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">&lt;&gt; Ton</Translation>
+      </Text>
+      <Text Id="__SingleUse_NABQ" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">&lt;&gt; Ton</Translation>
+      </Text>
+      <Text Id="__SingleUse_835F" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">&lt;&gt; m</Translation>
+      </Text>
+      <Text Id="__SingleUse_A93M" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">&lt;&gt; deg</Translation>
+      </Text>
+      <Text Id="__SingleUse_4839" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">SWLValue</Translation>
+      </Text>
+      <Text Id="__SingleUse_UX70" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">LoadValue</Translation>
+      </Text>
+      <Text Id="__SingleUse_YXE5" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">RadiusValue</Translation>
+      </Text>
+      <Text Id="__SingleUse_HSQA" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">AngleValue</Translation>
+      </Text>
+      <Text Id="__SingleUse_W3HT" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">SWL  &lt;value&gt; Ton</Translation>
+      </Text>
+      <Text Id="__SingleUse_Q4C2" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Load  &lt;value&gt; Ton</Translation>
+      </Text>
+      <Text Id="__SingleUse_ULBN" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Radius  &lt;value&gt; m</Translation>
+      </Text>
+      <Text Id="__SingleUse_R07P" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Angle  &lt;value&gt; deg</Translation>
+      </Text>
+    </TextGroup>
+  </Texts>
+  <Typographies>
+    <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" Direction="LTR" FallbackCharacter="?" WidgetWildcardCharacters="0123456789." />
+    <Typography Id="Large" Font="verdana.ttf" Size="40" Bpp="4" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" Direction="LTR" FallbackCharacter="?" />
+  </Typographies>
+</TextDatabase>
