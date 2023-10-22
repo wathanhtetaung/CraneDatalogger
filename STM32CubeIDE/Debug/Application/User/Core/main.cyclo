@@ -1,5 +1,7 @@
-C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/Core/Src/main.c:684:6:StartDefaultTask	1
-C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/Core/Src/main.c:231:6:SystemClock_Config	1
-C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/Core/Src/main.c:128:5:main	3
-C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/Core/Src/main.c:740:6:HAL_TIM_PeriodElapsedCallback	2
-C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/Core/Src/main.c:757:6:Error_Handler	1
+C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/Core/Src/main.c:967:6:StartDefaultTask	1
+C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/Core/Src/main.c:985:6:StartTaskAnalogInput	1
+C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/Core/Src/main.c:158:1:__io_putchar	1
+C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/Core/Src/main.c:287:6:SystemClock_Config	1
+C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/Core/Src/main.c:170:5:main	3
+C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/Core/Src/main.c:1045:6:HAL_TIM_PeriodElapsedCallback	2
+C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/Core/Src/main.c:1062:6:Error_Handler	1

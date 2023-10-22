@@ -1,5 +1,5 @@
 ../../TouchGFX/target/generated/SoftwareMJPEGDecoder.hpp:44:22:virtual uint32_t SoftwareMJPEGDecoder::getCurrentFrameNumber() const	1
-../../TouchGFX/target/generated/SoftwareMJPEGDecoder.hpp:58:23:virtual MJPEGDecoder::AVIErrors SoftwareMJPEGDecoder::getLastError()	1
+../../TouchGFX/target/generated/SoftwareMJPEGDecoder.hpp:52:23:virtual MJPEGDecoder::AVIErrors SoftwareMJPEGDecoder::getLastError()	1
 C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp:223:6:virtual bool SoftwareMJPEGDecoder::hasVideo()	2
 C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp:554:10:virtual uint32_t SoftwareMJPEGDecoder::getNumberOfFrames()	1
 C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp:559:6:virtual void SoftwareMJPEGDecoder::getVideoInfo(touchgfx::VideoInformation*)	1
@@ -20,4 +20,4 @@ C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/TouchGFX/targe
 C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp:214:6:virtual void SoftwareMJPEGDecoder::setVideoData(touchgfx::VideoDataReader&)	1
 C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp:331:6:void SoftwareMJPEGDecoder::decodeMJPEGFrame(const uint8_t*, uint32_t, uint8_t*, uint16_t, uint16_t, uint32_t)	3
 C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp:117:6:virtual bool SoftwareMJPEGDecoder::decodeNextFrame(uint8_t*, uint16_t, uint16_t, uint32_t)	7
-C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp:573:12:size_t jpeg_read_file(FILE*, uint8_t*, uint32_t)	0
+C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp:573:8:size_t jpeg_read_file(FILE*, uint8_t*, uint32_t)	0

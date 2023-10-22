@@ -11,6 +11,11 @@ public:
     virtual ~Screen1View() {}
     virtual void setupScreen();
     virtual void tearDownScreen();
+    //int uint16_t value;
+    virtual void newADCValue(int val);
+    virtual int getADCValue();
+
+    virtual void analogUpdate(uint16_t value);
 
 protected:
 };

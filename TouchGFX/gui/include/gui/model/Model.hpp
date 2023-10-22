@@ -13,6 +13,10 @@ public:
         modelListener = listener;
     }
 
+    void newADCValue(int val);
+    int setADC(int val);
+    void analogUpdate();
+
     void tick();
 protected:
     ModelListener* modelListener;

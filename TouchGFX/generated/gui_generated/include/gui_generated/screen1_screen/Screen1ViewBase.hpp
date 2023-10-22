@@ -9,8 +9,6 @@
 #include <gui/screen1_screen/Screen1Presenter.hpp>
 #include <touchgfx/widgets/Box.hpp>
 #include <touchgfx/widgets/TextAreaWithWildcard.hpp>
-#include <touchgfx/widgets/TextArea.hpp>
-#include <touchgfx/containers/progress_indicators/TextProgress.hpp>
 
 class Screen1ViewBase : public touchgfx::View<Screen1Presenter>
 {
@@ -29,22 +27,15 @@ protected:
      */
     touchgfx::Box __background;
     touchgfx::TextAreaWithOneWildcard angle_text;
-    touchgfx::TextArea angle_value;
     touchgfx::TextAreaWithOneWildcard Radius_text;
-    touchgfx::TextArea Radius_value;
     touchgfx::TextAreaWithOneWildcard load_text;
-    touchgfx::TextArea load_value;
     touchgfx::TextAreaWithOneWildcard SWL_text;
-    touchgfx::TextArea SWL_value;
-    touchgfx::TextProgress AngleValue;
-    touchgfx::TextProgress RadiusValue;
-    touchgfx::TextProgress LoadValue;
-    touchgfx::TextProgress SWLValue;
+    touchgfx::TextAreaWithOneWildcard textArea1;
 
     /*
      * Wildcard Buffers
      */
-    static const uint16_t ANGLE_TEXT_SIZE = 4;
+    static const uint16_t ANGLE_TEXT_SIZE = 10;
     touchgfx::Unicode::UnicodeChar angle_textBuffer[ANGLE_TEXT_SIZE];
     static const uint16_t RADIUS_TEXT_SIZE = 4;
     touchgfx::Unicode::UnicodeChar Radius_textBuffer[RADIUS_TEXT_SIZE];
@@ -52,6 +43,8 @@ protected:
     touchgfx::Unicode::UnicodeChar load_textBuffer[LOAD_TEXT_SIZE];
     static const uint16_t SWL_TEXT_SIZE = 4;
     touchgfx::Unicode::UnicodeChar SWL_textBuffer[SWL_TEXT_SIZE];
+    static const uint16_t TEXTAREA1_SIZE = 10;
+    touchgfx::Unicode::UnicodeChar textArea1Buffer[TEXTAREA1_SIZE];
 
 private:
 

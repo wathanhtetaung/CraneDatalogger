@@ -8,8 +8,8 @@
             "Type": "TextArea",
             "Name": "angle_text",
             "X": 70,
-            "Y": 52,
-            "Width": 139,
+            "Y": 53,
+            "Width": 165,
             "Height": 24,
             "TextId": "__SingleUse_R07P",
             "TextRotation": "0",
@@ -22,25 +22,8 @@
             "Wildcard1": {
               "TextId": "__SingleUse_4PYB",
               "UseBuffer": true,
-              "BufferSize": 4
+              "BufferSize": 10
             }
-          },
-          {
-            "Type": "TextArea",
-            "Name": "angle_value",
-            "X": 212,
-            "Y": 52,
-            "Width": 111,
-            "Height": 24,
-            "Visible": false,
-            "TextId": "__SingleUse_HSQA",
-            "TextRotation": "0",
-            "Color": {
-              "Red": 255,
-              "Green": 255,
-              "Blue": 255
-            },
-            "AutoSize": true
           },
           {
             "Type": "TextArea",
@@ -65,23 +48,6 @@
           },
           {
             "Type": "TextArea",
-            "Name": "Radius_value",
-            "X": 212,
-            "Y": 97,
-            "Width": 121,
-            "Height": 24,
-            "Visible": false,
-            "TextId": "__SingleUse_YXE5",
-            "TextRotation": "0",
-            "Color": {
-              "Red": 255,
-              "Green": 255,
-              "Blue": 255
-            },
-            "AutoSize": true
-          },
-          {
-            "Type": "TextArea",
             "Name": "load_text",
             "X": 70,
             "Y": 147,
@@ -100,23 +66,6 @@
               "UseBuffer": true,
               "BufferSize": 4
             }
-          },
-          {
-            "Type": "TextArea",
-            "Name": "load_value",
-            "X": 212,
-            "Y": 147,
-            "Width": 102,
-            "Height": 24,
-            "Visible": false,
-            "TextId": "__SingleUse_UX70",
-            "TextRotation": "0",
-            "Color": {
-              "Red": 255,
-              "Green": 255,
-              "Blue": 255
-            },
-            "AutoSize": true
           },
           {
             "Type": "TextArea",
@@ -141,112 +90,24 @@
           },
           {
             "Type": "TextArea",
-            "Name": "SWL_value",
-            "X": 212,
-            "Y": 198,
-            "Width": 99,
+            "Name": "textArea1",
+            "X": 274,
+            "Y": 53,
+            "Width": 192,
             "Height": 24,
-            "Visible": false,
-            "TextId": "__SingleUse_4839",
+            "TextId": "__SingleUse_694V",
             "TextRotation": "0",
             "Color": {
               "Red": 255,
               "Green": 255,
               "Blue": 255
             },
-            "AutoSize": true
-          },
-          {
-            "Type": "TextProgress",
-            "Name": "AngleValue",
-            "X": 185,
-            "Y": 39,
-            "Width": 175,
-            "Height": 50,
-            "Visible": false,
-            "TextId": "__SingleUse_A93M",
-            "Color": {
-              "Red": 255,
-              "Green": 255,
-              "Blue": 255
-            },
-            "Preset": "alternate_theme\\presets\\textprogress\\rounded.json",
-            "FileNameBackground": "__generated\\alternate_theme_images_widgets_textprogress_backgrounds_rounded_light.png",
-            "IndicatorPositionX": 12,
-            "IndicatorPositionY": 10,
-            "IndicatorPositionWidth": 150,
-            "IndicatorPositionHeight": 30,
-            "ProgressRangeMax": 100,
-            "ProgressInitialValue": 60
-          },
-          {
-            "Type": "TextProgress",
-            "Name": "RadiusValue",
-            "X": 185,
-            "Y": 84,
-            "Width": 175,
-            "Height": 50,
-            "Visible": false,
-            "TextId": "__SingleUse_835F",
-            "Color": {
-              "Red": 255,
-              "Green": 255,
-              "Blue": 255
-            },
-            "Preset": "alternate_theme\\presets\\textprogress\\rounded.json",
-            "FileNameBackground": "__generated\\alternate_theme_images_widgets_textprogress_backgrounds_rounded_light.png",
-            "IndicatorPositionX": 12,
-            "IndicatorPositionY": 10,
-            "IndicatorPositionWidth": 150,
-            "IndicatorPositionHeight": 30,
-            "ProgressRangeMax": 100,
-            "ProgressInitialValue": 60
-          },
-          {
-            "Type": "TextProgress",
-            "Name": "LoadValue",
-            "X": 185,
-            "Y": 134,
-            "Width": 175,
-            "Height": 50,
-            "Visible": false,
-            "TextId": "__SingleUse_NABQ",
-            "Color": {
-              "Red": 255,
-              "Green": 255,
-              "Blue": 255
-            },
-            "Preset": "alternate_theme\\presets\\textprogress\\rounded.json",
-            "FileNameBackground": "__generated\\alternate_theme_images_widgets_textprogress_backgrounds_rounded_light.png",
-            "IndicatorPositionX": 12,
-            "IndicatorPositionY": 10,
-            "IndicatorPositionWidth": 150,
-            "IndicatorPositionHeight": 30,
-            "ProgressRangeMax": 100,
-            "ProgressInitialValue": 60
-          },
-          {
-            "Type": "TextProgress",
-            "Name": "SWLValue",
-            "X": 185,
-            "Y": 185,
-            "Width": 175,
-            "Height": 50,
-            "Visible": false,
-            "TextId": "__SingleUse_S2QL",
-            "Color": {
-              "Red": 255,
-              "Green": 255,
-              "Blue": 255
-            },
-            "Preset": "alternate_theme\\presets\\textprogress\\rounded.json",
-            "FileNameBackground": "__generated\\alternate_theme_images_widgets_textprogress_backgrounds_rounded_light.png",
-            "IndicatorPositionX": 12,
-            "IndicatorPositionY": 10,
-            "IndicatorPositionWidth": 150,
-            "IndicatorPositionHeight": 30,
-            "ProgressRangeMax": 100,
-            "ProgressInitialValue": 60
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_1DMU",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
           }
         ],
         "Interactions": []
