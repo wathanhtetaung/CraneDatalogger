@@ -16,6 +16,8 @@ public:
     void newADCValue(int val);
     int setADC(int val);
     void analogUpdate();
+    void analogUpdate_ADC1();
+    void analogUpdate_ADC3();
 
     void tick();
 protected:

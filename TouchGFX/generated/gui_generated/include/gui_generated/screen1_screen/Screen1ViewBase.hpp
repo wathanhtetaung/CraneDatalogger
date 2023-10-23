@@ -31,6 +31,7 @@ protected:
     touchgfx::TextAreaWithOneWildcard load_text;
     touchgfx::TextAreaWithOneWildcard SWL_text;
     touchgfx::TextAreaWithOneWildcard textArea1;
+    touchgfx::TextAreaWithOneWildcard textArea2;
 
     /*
      * Wildcard Buffers
@@ -45,6 +46,8 @@ protected:
     touchgfx::Unicode::UnicodeChar SWL_textBuffer[SWL_TEXT_SIZE];
     static const uint16_t TEXTAREA1_SIZE = 10;
     touchgfx::Unicode::UnicodeChar textArea1Buffer[TEXTAREA1_SIZE];
+    static const uint16_t TEXTAREA2_SIZE = 10;
+    touchgfx::Unicode::UnicodeChar textArea2Buffer[TEXTAREA2_SIZE];
 
 private:
 

@@ -6,6 +6,12 @@
   <Texts>
     <TextGroup Id="Group1" />
     <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_BQDJ" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">3.301</Translation>
+      </Text>
+      <Text Id="__SingleUse_6ZBR" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">ADC3_IN8 &lt;value&gt; V</Translation>
+      </Text>
       <Text Id="__SingleUse_1DMU" Alignment="Left" TypographyId="Default">
         <Translation Language="GB">3.301</Translation>
       </Text>

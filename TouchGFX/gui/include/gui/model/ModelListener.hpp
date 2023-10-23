@@ -13,7 +13,8 @@ public:
     virtual ~ModelListener() {}
 
     virtual void newADCValue(int val) {}
-    virtual void analogUpdate(uint16_t value) {}
+    virtual void analogUpdate_ADC1(uint16_t value) {}
+    virtual void analogUpdate_ADC3(uint16_t value) {}
 
     void bind(Model* m)
     {

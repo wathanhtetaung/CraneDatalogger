@@ -10,7 +10,7 @@
 
 
 void PollingInit();
-void PollinRoutine();
+void PollingRoutine();
 
 
 #endif /* APPLICATION_USER_CORE_POLLINGROUTINES_H_ */

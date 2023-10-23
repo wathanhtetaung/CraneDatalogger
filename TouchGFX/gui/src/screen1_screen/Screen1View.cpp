@@ -27,17 +27,27 @@ void Screen1View::tearDownScreen()
     Screen1ViewBase::tearDownScreen();
 }
 
-void Screen1View::analogUpdate(uint16_t value)
+void Screen1View::analogUpdate_ADC1(uint16_t value)
 {
-	printf("update to screen done %d\r\n", value);
+	printf("update to screen done@ADC1 %d\r\n", value);
 
 	memset(&textArea1Buffer,0,TEXTAREA1_SIZE);
     Unicode::snprintfFloat(textArea1Buffer, TEXTAREA1_SIZE, "%.3f", value * 0.000805664);
     textArea1.invalidate();
 }
 
+void Screen1View::analogUpdate_ADC3(uint16_t value)
+{
+	printf("update to screen done@ADC3 %d\r\n", value);
+
+	memset(&textArea2Buffer,0,TEXTAREA2_SIZE);
+    Unicode::snprintfFloat(textArea2Buffer, TEXTAREA2_SIZE, "%.3f", value * 0.000805664);
+    textArea2.invalidate();
+}
+
 void Screen1View::newADCValue(int val)
 {
+	//printf("angle value updated\r\n");
 	//val++;
     Unicode::snprintf(angle_textBuffer, ANGLE_TEXT_SIZE, "%d", val);
     angle_text.invalidate();

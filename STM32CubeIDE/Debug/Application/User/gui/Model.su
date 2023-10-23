@@ -1,4 +1,5 @@
-C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/TouchGFX/gui/src/model/Model.cpp:13:1:Model::Model()	0	static
-C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/TouchGFX/gui/src/model/Model.cpp:32:6:void Model::newADCValue(int)	0	static
-C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/TouchGFX/gui/src/model/Model.cpp:45:6:void Model::analogUpdate()	32	static
-C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/TouchGFX/gui/src/model/Model.cpp:18:6:void Model::tick()	8	static
+C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/TouchGFX/gui/src/model/Model.cpp:14:1:Model::Model()	0	static
+C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/TouchGFX/gui/src/model/Model.cpp:49:6:void Model::newADCValue(int)	0	static
+C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/TouchGFX/gui/src/model/Model.cpp:62:6:void Model::analogUpdate_ADC1()	16	static
+C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/TouchGFX/gui/src/model/Model.cpp:79:6:void Model::analogUpdate_ADC3()	16	static
+C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/TouchGFX/gui/src/model/Model.cpp:19:6:void Model::tick()	8	static

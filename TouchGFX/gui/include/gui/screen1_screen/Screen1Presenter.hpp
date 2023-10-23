@@ -28,7 +28,8 @@ public:
     virtual ~Screen1Presenter() {}
 
     void newADCValue(int val);
-    virtual void analogUpdate(uint16_t value);
+    void analogUpdate_ADC1(uint16_t value);
+    void analogUpdate_ADC3(uint16_t value);
 
 private:
     Screen1Presenter();
