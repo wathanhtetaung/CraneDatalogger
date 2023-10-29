@@ -35,7 +35,7 @@ protected:
     double Radius_m;
     double angle_radians;
     double SlewOffset = 1.2;
-    bool OL_state,AL_state;
+    //bool OL_state,AL_state;
 
 };
 

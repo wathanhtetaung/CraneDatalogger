@@ -28,7 +28,8 @@ protected:
      * Member Declarations
      */
     touchgfx::Box __background;
-    touchgfx::ScalableImage background;
+    touchgfx::ScalableImage background_01;
+    touchgfx::ScalableImage background_02;
     touchgfx::TextAreaWithOneWildcard AngleValue;
     touchgfx::TextAreaWithOneWildcard RadiusValue;
     touchgfx::TextAreaWithOneWildcard LoadValue;

@@ -6,18 +6,28 @@
         "Components": [
           {
             "Type": "ScalableImage",
-            "Name": "background",
+            "Name": "background_01",
             "Width": 480,
             "Height": 272,
-            "Filename": "WorkingScreen.PNG",
+            "Filename": "__generated\\alternate_theme_images_backgrounds_800x480_gradient_light.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "background_02",
+            "X": -57,
+            "Y": -22,
+            "Width": 372,
+            "Height": 302,
+            "Filename": "workingscreen_01.png",
             "ScalingAlgorithm": "Nearest-neighbor"
           },
           {
             "Type": "TextArea",
             "Name": "AngleValue",
-            "X": 148,
+            "X": 135,
             "Y": 198,
-            "Width": 105,
+            "Width": 72,
             "Height": 24,
             "TextId": "__SingleUse_QZNR",
             "TextRotation": "0",
@@ -31,7 +41,7 @@
           {
             "Type": "TextArea",
             "Name": "RadiusValue",
-            "X": 158,
+            "X": 168,
             "Y": 233,
             "Width": 72,
             "Height": 24,
@@ -47,8 +57,8 @@
           {
             "Type": "TextArea",
             "Name": "LoadValue",
-            "X": 220,
-            "Y": 174,
+            "X": 190,
+            "Y": 129,
             "Width": 101,
             "Height": 24,
             "TextId": "__SingleUse_LT2B",
@@ -63,9 +73,9 @@
           {
             "Type": "TextArea",
             "Name": "SWLValue",
-            "X": 288,
+            "X": 260,
             "Y": 17,
-            "Width": 101,
+            "Width": 153,
             "Height": 24,
             "TextId": "__SingleUse_4NI4",
             "TextRotation": "0",

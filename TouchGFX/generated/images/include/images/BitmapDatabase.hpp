@@ -6,15 +6,17 @@
 #include <touchgfx/hal/Types.hpp>
 #include <touchgfx/Bitmap.hpp>
 
-const uint16_t BITMAP_ANGLELIMIT_ACTIVATED_ID = 0;
-const uint16_t BITMAP_ANGLELIMIT_NORMAL_ID = 1;
-const uint16_t BITMAP_ATB_ACTIVATED_ID = 2;
-const uint16_t BITMAP_ATB_NORMAL_ID = 3;
-const uint16_t BITMAP_BYPASS_ACTIVATED_ID = 4;
-const uint16_t BITMAP_BYPASS_NORMAL_ID = 5;
-const uint16_t BITMAP_OL_ACTIVATED_ID = 6;
-const uint16_t BITMAP_OL_NOT_ACTIVATE_ID = 7;
-const uint16_t BITMAP_WORKINGSCREEN_ID = 8;
+const uint16_t BITMAP_ALTERNATE_THEME_IMAGES_BACKGROUNDS_800X480_GRADIENT_LIGHT_ID = 0;
+const uint16_t BITMAP_ANGLELIMIT_ACTIVATED_ID = 1;
+const uint16_t BITMAP_ANGLELIMIT_NORMAL_ID = 2;
+const uint16_t BITMAP_ATB_ACTIVATED_ID = 3;
+const uint16_t BITMAP_ATB_NORMAL_ID = 4;
+const uint16_t BITMAP_BYPASS_ACTIVATED_ID = 5;
+const uint16_t BITMAP_BYPASS_NORMAL_ID = 6;
+const uint16_t BITMAP_OL_ACTIVATED_ID = 7;
+const uint16_t BITMAP_OL_NOT_ACTIVATE_ID = 8;
+const uint16_t BITMAP_WORKINGSCREEN_ID = 9;
+const uint16_t BITMAP_WORKINGSCREEN_01_ID = 10;
 
 namespace BitmapDatabase
 {

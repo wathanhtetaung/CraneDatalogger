@@ -16,6 +16,8 @@ extern uint16_t uhADC3ConvertedValue[10];
 extern osSemaphoreId_t binarySemAnalogHandle;
 extern bool ATB_Status;
 extern bool Bypass_Status;
+bool Overload_Status = false;
+bool HighAngle_Status = false;
 
 struct LoadData {
     double radius; // Radius in meters
@@ -218,13 +220,13 @@ void Model::SetOverload(double val)
 {
 	if (Load_Ton > val)
 	{
-		OL_state = true;
+		Overload_Status = true;
 	}
 	else
 	{
-		OL_state = false;
+		Overload_Status = false;
 	}
-	modelListener->SetOverload(OL_state);
+	modelListener->SetOverload(Overload_Status);
 
 }
 
@@ -232,13 +234,13 @@ void Model::SetAngleLimit()
 {
 	if (Angle_Deg > 80)
 	{
-		AL_state = true;
+		HighAngle_Status = true;
 	}
 	else
 	{
-		AL_state = false;
+		HighAngle_Status = false;
 	}
-	modelListener->SetAngleLimit(AL_state);
+	modelListener->SetAngleLimit(HighAngle_Status);
 
 }
 

@@ -10,7 +10,7 @@
         <Translation Language="GB">100.0</Translation>
       </Text>
       <Text Id="__SingleUse_4NI4" Alignment="Left" TypographyId="Default">
-        <Translation Language="GB">&lt;value&gt; Ton</Translation>
+        <Translation Language="GB">SWL &lt;value&gt; Ton</Translation>
       </Text>
       <Text Id="__SingleUse_3HXJ" Alignment="Left" TypographyId="Default">
         <Translation Language="GB">100.0</Translation>
@@ -28,7 +28,7 @@
         <Translation Language="GB">180.0</Translation>
       </Text>
       <Text Id="__SingleUse_QZNR" Alignment="Left" TypographyId="Default">
-        <Translation Language="GB">&lt;value&gt; Deg</Translation>
+        <Translation Language="GB">&lt;value&gt;˚</Translation>
       </Text>
       <Text Id="__SingleUse_W3HT" Alignment="Left" TypographyId="Default">
         <Translation Language="GB">SWL  &lt;value&gt; Ton</Translation>

@@ -49,6 +49,8 @@
 "./Application/User/generated/image_OL_activated.o"
 "./Application/User/generated/image_OL_not_activate.o"
 "./Application/User/generated/image_WorkingScreen.o"
+"./Application/User/generated/image_alternate_theme_images_backgrounds_800x480_gradient_light.o"
+"./Application/User/generated/image_workingscreen_01.o"
 "./Application/User/gui/FrontendApplication.o"
 "./Application/User/gui/Model.o"
 "./Application/User/gui/Screen1Presenter.o"

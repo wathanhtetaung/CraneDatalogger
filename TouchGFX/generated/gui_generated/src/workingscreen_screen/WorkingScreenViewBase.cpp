@@ -12,12 +12,17 @@ WorkingScreenViewBase::WorkingScreenViewBase()
     __background.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
     add(__background);
 
-    background.setBitmap(touchgfx::Bitmap(BITMAP_WORKINGSCREEN_ID));
-    background.setPosition(0, 0, 480, 272);
-    background.setScalingAlgorithm(touchgfx::ScalableImage::NEAREST_NEIGHBOR);
-    add(background);
+    background_01.setBitmap(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_BACKGROUNDS_800X480_GRADIENT_LIGHT_ID));
+    background_01.setPosition(0, 0, 480, 272);
+    background_01.setScalingAlgorithm(touchgfx::ScalableImage::NEAREST_NEIGHBOR);
+    add(background_01);
 
-    AngleValue.setXY(148, 198);
+    background_02.setBitmap(touchgfx::Bitmap(BITMAP_WORKINGSCREEN_01_ID));
+    background_02.setPosition(-57, -22, 372, 302);
+    background_02.setScalingAlgorithm(touchgfx::ScalableImage::NEAREST_NEIGHBOR);
+    add(background_02);
+
+    AngleValue.setXY(135, 198);
     AngleValue.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
     AngleValue.setLinespacing(0);
     Unicode::snprintf(AngleValueBuffer, ANGLEVALUE_SIZE, "%s", touchgfx::TypedText(T___SINGLEUSE_BNFN).getText());
@@ -26,7 +31,7 @@ WorkingScreenViewBase::WorkingScreenViewBase()
     AngleValue.setTypedText(touchgfx::TypedText(T___SINGLEUSE_QZNR));
     add(AngleValue);
 
-    RadiusValue.setXY(158, 233);
+    RadiusValue.setXY(168, 233);
     RadiusValue.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
     RadiusValue.setLinespacing(0);
     Unicode::snprintf(RadiusValueBuffer, RADIUSVALUE_SIZE, "%s", touchgfx::TypedText(T___SINGLEUSE_FIY1).getText());
@@ -35,7 +40,7 @@ WorkingScreenViewBase::WorkingScreenViewBase()
     RadiusValue.setTypedText(touchgfx::TypedText(T___SINGLEUSE_NTTT));
     add(RadiusValue);
 
-    LoadValue.setXY(220, 174);
+    LoadValue.setXY(190, 129);
     LoadValue.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
     LoadValue.setLinespacing(0);
     Unicode::snprintf(LoadValueBuffer, LOADVALUE_SIZE, "%s", touchgfx::TypedText(T___SINGLEUSE_3HXJ).getText());
@@ -44,7 +49,7 @@ WorkingScreenViewBase::WorkingScreenViewBase()
     LoadValue.setTypedText(touchgfx::TypedText(T___SINGLEUSE_LT2B));
     add(LoadValue);
 
-    SWLValue.setXY(288, 17);
+    SWLValue.setXY(260, 17);
     SWLValue.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
     SWLValue.setLinespacing(0);
     Unicode::snprintf(SWLValueBuffer, SWLVALUE_SIZE, "%s", touchgfx::TypedText(T___SINGLEUSE_SI7D).getText());

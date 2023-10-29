@@ -1,4 +1,4 @@
-../Application/User/Core/PollingRoutines.c:27:6:PollingInit	4
-../Application/User/Core/PollingRoutines.c:61:6:PollingRoutine	1
-../Application/User/Core/PollingRoutines.c:87:6:HAL_ADC_ConvCpltCallback	1
-../Application/User/Core/PollingRoutines.c:93:6:HAL_ADC_ErrorCallback	1
+../Application/User/Core/PollingRoutines.c:29:6:PollingInit	4
+../Application/User/Core/PollingRoutines.c:63:6:PollingRoutine	6
+../Application/User/Core/PollingRoutines.c:122:6:HAL_ADC_ConvCpltCallback	1
+../Application/User/Core/PollingRoutines.c:128:6:HAL_ADC_ErrorCallback	1

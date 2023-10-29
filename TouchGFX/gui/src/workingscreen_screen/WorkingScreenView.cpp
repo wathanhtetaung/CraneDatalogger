@@ -18,7 +18,9 @@ void WorkingScreenView::tearDownScreen()
 
 void WorkingScreenView::newAngleValue(double val)
 {
+	//Unicode::UnicodeChar a[] = {0x00B0,0};
 	//printf("new angle value updated@WorkingScreenView %d\r\n", val);
+    //Unicode::snprintf(AngleValueBuffer1, ANGLEVALUEBUFFER1_SIZE, "%d %s", val,a);
     Unicode::snprintfFloat(AngleValueBuffer, ANGLEVALUE_SIZE, "%.1f", val);
     AngleValue.invalidate();
 }

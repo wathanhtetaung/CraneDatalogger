@@ -23,6 +23,8 @@ uint32_t uhADC1ConvertedValue[10]= {0};
 uint32_t uhADC3ConvertedValue[10]= {0};
 bool ATB_Status = false;
 bool Bypass_Status = false;
+extern bool Overload_Status;
+extern bool HighAngle_Status;
 
 void PollingInit()
 {
@@ -60,16 +62,7 @@ void PollingInit()
 
 void PollingRoutine()
 {
-	/* read ATB IO and update */
-	if (HAL_GPIO_ReadPin(GPIOG,GPIO_PIN_7) == true)
-	{
-		ATB_Status = true;
-		//printf("ATB activated\r\n");
-	}
-	else
-	{
-		ATB_Status = false;
-	}
+
 
 	/* read Bypass IO and update */
 	if (HAL_GPIO_ReadPin(GPIOI,GPIO_PIN_0) == true)
@@ -80,6 +73,48 @@ void PollingRoutine()
 	else
 	{
 		Bypass_Status = false;
+	}
+
+	/* read ATB IO and update to GUI */
+	if (HAL_GPIO_ReadPin(GPIOG,GPIO_PIN_7) == true)
+	{
+		ATB_Status = true;
+		//printf("ATB activated\r\n");
+	}
+	else
+	{
+		ATB_Status = false;
+	}
+
+	/* to manage cutoff output for overload & ATB */
+	if (((ATB_Status == true) && Bypass_Status == false) || ((Overload_Status == true) && Bypass_Status == false))
+	{
+		/* Output cutoff signal for overload and ATB*/
+		HAL_GPIO_WritePin(GPIOH,GPIO_PIN_6,GPIO_PIN_SET);
+		//printf("output cutoff signal for overload & ATB\r\n");
+
+	}
+	else
+	{
+		/* Output cutoff signal for overload and ATB*/
+		HAL_GPIO_WritePin(GPIOH,GPIO_PIN_6,GPIO_PIN_RESET);
+		//printf("Released cutoff signal for overload & ATB\r\n");
+	}
+
+	/* to manage cutoff output for high angle limit */
+	if ((HighAngle_Status == true) && Bypass_Status == false)
+	{
+
+		/* Output cutoff signal for overload and ATB*/
+		HAL_GPIO_WritePin(GPIOI,GPIO_PIN_3,GPIO_PIN_SET);
+		//printf("ouput high angle cutoff\r\n");
+
+	}
+	else
+	{
+		/* Output cutoff signal for overload and ATB*/
+		HAL_GPIO_WritePin(GPIOI,GPIO_PIN_3,GPIO_PIN_RESET);
+		//printf("Released high angle cutoff\r\n");
 	}
 
 }

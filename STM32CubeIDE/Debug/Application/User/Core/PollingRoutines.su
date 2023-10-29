@@ -1,4 +1,4 @@
-../Application/User/Core/PollingRoutines.c:27:6:PollingInit	8	static
-../Application/User/Core/PollingRoutines.c:61:6:PollingRoutine	8	static
-../Application/User/Core/PollingRoutines.c:87:6:HAL_ADC_ConvCpltCallback	0	static
-../Application/User/Core/PollingRoutines.c:93:6:HAL_ADC_ErrorCallback	0	static
+../Application/User/Core/PollingRoutines.c:29:6:PollingInit	8	static
+../Application/User/Core/PollingRoutines.c:63:6:PollingRoutine	8	static
+../Application/User/Core/PollingRoutines.c:122:6:HAL_ADC_ConvCpltCallback	0	static
+../Application/User/Core/PollingRoutines.c:128:6:HAL_ADC_ErrorCallback	0	static
