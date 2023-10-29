@@ -26,26 +26,26 @@ protected:
      * Member Declarations
      */
     touchgfx::Box __background;
-    touchgfx::TextAreaWithOneWildcard angle_text;
-    touchgfx::TextAreaWithOneWildcard Radius_text;
-    touchgfx::TextAreaWithOneWildcard load_text;
-    touchgfx::TextAreaWithOneWildcard SWL_text;
     touchgfx::TextAreaWithOneWildcard textArea1;
+    touchgfx::TextAreaWithOneWildcard RadiusValue;
+    touchgfx::TextAreaWithOneWildcard AngleValue;
+    touchgfx::TextAreaWithOneWildcard SWLValue;
+    touchgfx::TextAreaWithOneWildcard LoadValue;
     touchgfx::TextAreaWithOneWildcard textArea2;
 
     /*
      * Wildcard Buffers
      */
-    static const uint16_t ANGLE_TEXT_SIZE = 10;
-    touchgfx::Unicode::UnicodeChar angle_textBuffer[ANGLE_TEXT_SIZE];
-    static const uint16_t RADIUS_TEXT_SIZE = 4;
-    touchgfx::Unicode::UnicodeChar Radius_textBuffer[RADIUS_TEXT_SIZE];
-    static const uint16_t LOAD_TEXT_SIZE = 4;
-    touchgfx::Unicode::UnicodeChar load_textBuffer[LOAD_TEXT_SIZE];
-    static const uint16_t SWL_TEXT_SIZE = 4;
-    touchgfx::Unicode::UnicodeChar SWL_textBuffer[SWL_TEXT_SIZE];
     static const uint16_t TEXTAREA1_SIZE = 10;
     touchgfx::Unicode::UnicodeChar textArea1Buffer[TEXTAREA1_SIZE];
+    static const uint16_t RADIUSVALUE_SIZE = 4;
+    touchgfx::Unicode::UnicodeChar RadiusValueBuffer[RADIUSVALUE_SIZE];
+    static const uint16_t ANGLEVALUE_SIZE = 10;
+    touchgfx::Unicode::UnicodeChar AngleValueBuffer[ANGLEVALUE_SIZE];
+    static const uint16_t SWLVALUE_SIZE = 4;
+    touchgfx::Unicode::UnicodeChar SWLValueBuffer[SWLVALUE_SIZE];
+    static const uint16_t LOADVALUE_SIZE = 4;
+    touchgfx::Unicode::UnicodeChar LoadValueBuffer[LOADVALUE_SIZE];
     static const uint16_t TEXTAREA2_SIZE = 10;
     touchgfx::Unicode::UnicodeChar textArea2Buffer[TEXTAREA2_SIZE];
 

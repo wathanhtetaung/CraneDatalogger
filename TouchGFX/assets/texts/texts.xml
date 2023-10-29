@@ -6,29 +6,29 @@
   <Texts>
     <TextGroup Id="Group1" />
     <TextGroup Id="Unsorted">
-      <Text Id="__SingleUse_BQDJ" Alignment="Left" TypographyId="Default">
-        <Translation Language="GB">3.301</Translation>
+      <Text Id="__SingleUse_SI7D" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">100.0</Translation>
       </Text>
-      <Text Id="__SingleUse_6ZBR" Alignment="Left" TypographyId="Default">
-        <Translation Language="GB">ADC3_IN8 &lt;value&gt; V</Translation>
+      <Text Id="__SingleUse_4NI4" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">&lt;value&gt; Ton</Translation>
       </Text>
-      <Text Id="__SingleUse_1DMU" Alignment="Left" TypographyId="Default">
-        <Translation Language="GB">3.301</Translation>
+      <Text Id="__SingleUse_3HXJ" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">100.0</Translation>
       </Text>
-      <Text Id="__SingleUse_694V" Alignment="Left" TypographyId="Default">
-        <Translation Language="GB">ADC1_IN0 &lt;value&gt; V</Translation>
+      <Text Id="__SingleUse_LT2B" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">&lt;value&gt; Ton</Translation>
       </Text>
-      <Text Id="__SingleUse_OMG4" Alignment="Left" TypographyId="Default">
-        <Translation Language="GB">50</Translation>
+      <Text Id="__SingleUse_FIY1" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">12.0</Translation>
       </Text>
-      <Text Id="__SingleUse_NFHR" Alignment="Left" TypographyId="Default">
-        <Translation Language="GB">30</Translation>
+      <Text Id="__SingleUse_NTTT" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">&lt;value&gt; m</Translation>
       </Text>
-      <Text Id="__SingleUse_GUNP" Alignment="Left" TypographyId="Default">
-        <Translation Language="GB">12</Translation>
+      <Text Id="__SingleUse_BNFN" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">180.0</Translation>
       </Text>
-      <Text Id="__SingleUse_4PYB" Alignment="Left" TypographyId="Default">
-        <Translation Language="GB">0060</Translation>
+      <Text Id="__SingleUse_QZNR" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">&lt;value&gt; Deg</Translation>
       </Text>
       <Text Id="__SingleUse_W3HT" Alignment="Left" TypographyId="Default">
         <Translation Language="GB">SWL  &lt;value&gt; Ton</Translation>
@@ -36,16 +36,28 @@
       <Text Id="__SingleUse_Q4C2" Alignment="Left" TypographyId="Default">
         <Translation Language="GB">Load  &lt;value&gt; Ton</Translation>
       </Text>
+      <Text Id="__SingleUse_R07P" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Angle  &lt;value&gt; deg</Translation>
+      </Text>
       <Text Id="__SingleUse_ULBN" Alignment="Left" TypographyId="Default">
         <Translation Language="GB">Radius  &lt;value&gt; m</Translation>
       </Text>
-      <Text Id="__SingleUse_R07P" Alignment="Left" TypographyId="Default">
-        <Translation Language="GB">Angle  &lt;value&gt; deg</Translation>
+      <Text Id="__SingleUse_BQDJ" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">4095</Translation>
+      </Text>
+      <Text Id="__SingleUse_6ZBR" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">ADC3_IN8 &lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_1DMU" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">4095</Translation>
+      </Text>
+      <Text Id="__SingleUse_694V" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">ADC1_IN0 &lt;value&gt;</Translation>
       </Text>
     </TextGroup>
   </Texts>
   <Typographies>
-    <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" Direction="LTR" WildcardCharacterRanges="0-9" />
+    <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" Direction="LTR" WildcardCharacters="+-" WildcardCharacterRanges="0-9" />
     <Typography Id="Large" Font="verdana.ttf" Size="40" Bpp="4" Direction="LTR" FallbackCharacter="?" />
     <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" Direction="LTR" FallbackCharacter="?" />
   </Typographies>

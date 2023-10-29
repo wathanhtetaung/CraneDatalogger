@@ -1,5 +1,15 @@
-C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/TouchGFX/gui/src/model/Model.cpp:14:1:Model::Model()	1
-C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/TouchGFX/gui/src/model/Model.cpp:49:6:void Model::newADCValue(int)	2
-C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/TouchGFX/gui/src/model/Model.cpp:62:6:void Model::analogUpdate_ADC1()	2
-C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/TouchGFX/gui/src/model/Model.cpp:79:6:void Model::analogUpdate_ADC3()	2
-C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/TouchGFX/gui/src/model/Model.cpp:19:6:void Model::tick()	4
+C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/TouchGFX/gui/src/model/Model.cpp:26:8:double findWorkingLoad(const std::vector<LoadData>&, double)	4
+C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/TouchGFX/gui/src/model/Model.cpp:52:8:double map(long int, long int, long int, double, double)	1
+C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/TouchGFX/gui/src/model/Model.cpp:57:1:Model::Model()	1
+C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/TouchGFX/gui/src/model/Model.cpp:117:6:void Model::newADCValue(int)	2
+C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/TouchGFX/gui/src/model/Model.cpp:130:6:void Model::newAngleValue(int)	1
+C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/TouchGFX/gui/src/model/Model.cpp:160:6:void Model::newLoadValue(int)	1
+C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/TouchGFX/gui/src/model/Model.cpp:178:6:void Model::analogUpdate_ADC1()	2
+C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/TouchGFX/gui/src/model/Model.cpp:197:6:void Model::analogUpdate_ADC3()	2
+C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/TouchGFX/gui/src/model/Model.cpp:217:6:void Model::SetOverload(double)	1
+C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/TouchGFX/gui/src/model/Model.cpp:231:6:void Model::SetAngleLimit()	1
+C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/TouchGFX/gui/src/model/Model.cpp:245:6:void Model::SetATBLimit(bool)	1
+C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/TouchGFX/gui/src/model/Model.cpp:251:6:void Model::SetBypass(bool)	1
+C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/TouchGFX/gui/src/model/Model.cpp:62:6:void Model::tick()	5
+C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/TouchGFX/gui/src/model/Model.cpp:255:1:cpp)	1
+C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/TouchGFX/gui/src/model/Model.cpp:255:1:cpp)	2

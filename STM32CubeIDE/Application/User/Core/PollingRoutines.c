@@ -11,6 +11,7 @@
 #include "stm32f7xx_hal_adc.h"
 #include "cmsis_os.h"
 #include <stdio.h>
+#include <stdbool.h>
 
 extern ADC_HandleTypeDef hadc1;
 extern ADC_HandleTypeDef hadc3;
@@ -20,6 +21,8 @@ extern osSemaphoreId_t binarySemAnalogHandle;
 
 uint32_t uhADC1ConvertedValue[10]= {0};
 uint32_t uhADC3ConvertedValue[10]= {0};
+bool ATB_Status = false;
+bool Bypass_Status = false;
 
 void PollingInit()
 {
@@ -57,12 +60,33 @@ void PollingInit()
 
 void PollingRoutine()
 {
+	/* read ATB IO and update */
+	if (HAL_GPIO_ReadPin(GPIOG,GPIO_PIN_7) == true)
+	{
+		ATB_Status = true;
+		//printf("ATB activated\r\n");
+	}
+	else
+	{
+		ATB_Status = false;
+	}
+
+	/* read Bypass IO and update */
+	if (HAL_GPIO_ReadPin(GPIOI,GPIO_PIN_0) == true)
+	{
+		Bypass_Status = true;
+		//printf("Bypass activated\r\n");
+	}
+	else
+	{
+		Bypass_Status = false;
+	}
 
 }
 
 void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef* hadc)
 {
-	printf("osSemaphore callback\r\n");
+	//printf("osSemaphore callback\r\n");
 	osSemaphoreRelease (binarySemAnalogHandle);
 }
 

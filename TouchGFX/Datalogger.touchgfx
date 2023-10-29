@@ -2,98 +2,168 @@
   "Application": {
     "Screens": [
       {
-        "Name": "Screen1",
+        "Name": "WorkingScreen",
         "Components": [
           {
+            "Type": "ScalableImage",
+            "Name": "background",
+            "Width": 480,
+            "Height": 272,
+            "Filename": "WorkingScreen.PNG",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
             "Type": "TextArea",
-            "Name": "angle_text",
-            "X": 70,
-            "Y": 53,
-            "Width": 165,
+            "Name": "AngleValue",
+            "X": 148,
+            "Y": 198,
+            "Width": 105,
             "Height": 24,
-            "TextId": "__SingleUse_R07P",
+            "TextId": "__SingleUse_QZNR",
             "TextRotation": "0",
-            "Color": {
-              "Red": 255,
-              "Green": 255,
-              "Blue": 255
-            },
             "AutoSize": true,
             "Wildcard1": {
-              "TextId": "__SingleUse_4PYB",
+              "TextId": "__SingleUse_BNFN",
               "UseBuffer": true,
               "BufferSize": 10
             }
           },
           {
             "Type": "TextArea",
-            "Name": "Radius_text",
-            "X": 70,
-            "Y": 97,
-            "Width": 132,
+            "Name": "RadiusValue",
+            "X": 158,
+            "Y": 233,
+            "Width": 72,
             "Height": 24,
-            "TextId": "__SingleUse_ULBN",
+            "TextId": "__SingleUse_NTTT",
             "TextRotation": "0",
-            "Color": {
-              "Red": 255,
-              "Green": 255,
-              "Blue": 255
-            },
             "AutoSize": true,
             "Wildcard1": {
-              "TextId": "__SingleUse_GUNP",
+              "TextId": "__SingleUse_FIY1",
               "UseBuffer": true,
-              "BufferSize": 4
+              "BufferSize": 10
             }
           },
           {
             "Type": "TextArea",
-            "Name": "load_text",
-            "X": 70,
-            "Y": 147,
-            "Width": 129,
+            "Name": "LoadValue",
+            "X": 220,
+            "Y": 174,
+            "Width": 101,
             "Height": 24,
-            "TextId": "__SingleUse_Q4C2",
+            "TextId": "__SingleUse_LT2B",
             "TextRotation": "0",
-            "Color": {
-              "Red": 255,
-              "Green": 255,
-              "Blue": 255
-            },
             "AutoSize": true,
             "Wildcard1": {
-              "TextId": "__SingleUse_NFHR",
+              "TextId": "__SingleUse_3HXJ",
               "UseBuffer": true,
-              "BufferSize": 4
+              "BufferSize": 10
             }
           },
           {
             "Type": "TextArea",
-            "Name": "SWL_text",
-            "X": 70,
-            "Y": 198,
-            "Width": 127,
+            "Name": "SWLValue",
+            "X": 288,
+            "Y": 17,
+            "Width": 101,
             "Height": 24,
-            "TextId": "__SingleUse_W3HT",
+            "TextId": "__SingleUse_4NI4",
             "TextRotation": "0",
-            "Color": {
-              "Red": 255,
-              "Green": 255,
-              "Blue": 255
-            },
             "AutoSize": true,
             "Wildcard1": {
-              "TextId": "__SingleUse_OMG4",
+              "TextId": "__SingleUse_SI7D",
               "UseBuffer": true,
-              "BufferSize": 4
+              "BufferSize": 10
             }
           },
+          {
+            "Type": "Image",
+            "Name": "noOverLoaded",
+            "X": 425,
+            "Y": 17,
+            "Width": 36,
+            "Height": 27,
+            "RelativeFilename": "OL_not activate.PNG"
+          },
+          {
+            "Type": "Image",
+            "Name": "Overloaded",
+            "X": 425,
+            "Y": 16,
+            "Width": 35,
+            "Height": 28,
+            "Visible": false,
+            "RelativeFilename": "OL_activated.PNG"
+          },
+          {
+            "Type": "Image",
+            "Name": "AngleLimitButton",
+            "X": 421,
+            "Y": 50,
+            "Width": 45,
+            "Height": 35,
+            "RelativeFilename": "AngleLimit_normal.PNG"
+          },
+          {
+            "Type": "Image",
+            "Name": "AngleLimitButton_A",
+            "X": 420,
+            "Y": 48,
+            "Width": 46,
+            "Height": 35,
+            "Visible": false,
+            "RelativeFilename": "AngleLimit_activated.PNG"
+          },
+          {
+            "Type": "Image",
+            "Name": "ATBButton",
+            "X": 413,
+            "Y": 93,
+            "Width": 59,
+            "Height": 30,
+            "RelativeFilename": "ATB_normal.PNG"
+          },
+          {
+            "Type": "Image",
+            "Name": "ATBButton_A",
+            "X": 413,
+            "Y": 93,
+            "Width": 61,
+            "Height": 32,
+            "Visible": false,
+            "RelativeFilename": "ATB_activated.PNG"
+          },
+          {
+            "Type": "Image",
+            "Name": "BypassButton",
+            "X": 380,
+            "Y": 129,
+            "Width": 100,
+            "Height": 36,
+            "RelativeFilename": "Bypass_normal.PNG"
+          },
+          {
+            "Type": "Image",
+            "Name": "BypassButton_A",
+            "X": 380,
+            "Y": 126,
+            "Width": 103,
+            "Height": 39,
+            "Visible": false,
+            "RelativeFilename": "Bypass_activated.PNG"
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "Screen1",
+        "Components": [
           {
             "Type": "TextArea",
             "Name": "textArea1",
             "X": 274,
             "Y": 53,
-            "Width": 192,
+            "Width": 164,
             "Height": 24,
             "TextId": "__SingleUse_694V",
             "TextRotation": "0",
@@ -111,10 +181,70 @@
           },
           {
             "Type": "TextArea",
+            "Name": "RadiusValue",
+            "X": 157,
+            "Y": 232,
+            "Width": 106,
+            "Height": 24,
+            "TextId": "__SingleUse_ULBN",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 4
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "AngleValue",
+            "X": 75,
+            "Y": 201,
+            "Width": 113,
+            "Height": 24,
+            "TextId": "__SingleUse_R07P",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "SWLValue",
+            "X": 342,
+            "Y": 18,
+            "Width": 101,
+            "Height": 24,
+            "TextId": "__SingleUse_W3HT",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 4
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "LoadValue",
+            "X": 195,
+            "Y": 170,
+            "Width": 103,
+            "Height": 24,
+            "TextId": "__SingleUse_Q4C2",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 4
+            }
+          },
+          {
+            "Type": "TextArea",
             "Name": "textArea2",
             "X": 274,
             "Y": 97,
-            "Width": 192,
+            "Width": 164,
             "Height": 24,
             "TextId": "__SingleUse_6ZBR",
             "TextRotation": "0",
@@ -141,7 +271,7 @@
       "Height": 272
     },
     "SelectedColorDepth": 16,
-    "StartupScreenName": "Screen1",
+    "StartupScreenName": "WorkingScreen",
     "SelectedStartupLanguage": "GB",
     "TouchGfxPath": "../Middlewares/ST/touchgfx",
     "UIPath": ".",

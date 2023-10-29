@@ -25,13 +25,13 @@ void Screen1Presenter::newADCValue(int val)
 
 void Screen1Presenter::analogUpdate_ADC1(uint16_t value)
 {
-	printf("go into presenter_ADC1\r\n");
+	//printf("go into presenter_ADC1\r\n");
 	view.analogUpdate_ADC1(value);
 }
 
 void Screen1Presenter::analogUpdate_ADC3(uint16_t value)
 {
-	printf("go into presenter_ADC3\r\n");
+	//printf("go into presenter_ADC3\r\n");
 	view.analogUpdate_ADC3(value);
 }
 

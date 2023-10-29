@@ -1,0 +1,16 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	1
+C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/TouchGFX/gui/src/workingscreen_screen/WorkingScreenView.cpp:14:6:virtual void WorkingScreenView::tearDownScreen()	1
+../../TouchGFX/gui/include/gui/workingscreen_screen/WorkingScreenView.hpp:11:13:WorkingScreenView::~WorkingScreenView()	1
+../../TouchGFX/gui/include/gui/workingscreen_screen/WorkingScreenView.hpp:11:13:virtual WorkingScreenView::~WorkingScreenView()	1
+C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/TouchGFX/gui/src/workingscreen_screen/WorkingScreenView.cpp:4:1:WorkingScreenView::WorkingScreenView()	1
+C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/TouchGFX/gui/src/workingscreen_screen/WorkingScreenView.cpp:9:6:virtual void WorkingScreenView::setupScreen()	1
+C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/TouchGFX/gui/src/workingscreen_screen/WorkingScreenView.cpp:19:6:virtual void WorkingScreenView::newAngleValue(double)	1
+C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/TouchGFX/gui/src/workingscreen_screen/WorkingScreenView.cpp:26:6:virtual void WorkingScreenView::newLoadValue(double)	1
+C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/TouchGFX/gui/src/workingscreen_screen/WorkingScreenView.cpp:33:6:virtual void WorkingScreenView::newRadiusValue(double)	1
+C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/TouchGFX/gui/src/workingscreen_screen/WorkingScreenView.cpp:40:6:virtual void WorkingScreenView::newSWLValue(double)	1
+C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/TouchGFX/gui/src/workingscreen_screen/WorkingScreenView.cpp:47:6:virtual void WorkingScreenView::SetOverload(bool)	1
+C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/TouchGFX/gui/src/workingscreen_screen/WorkingScreenView.cpp:53:6:virtual void WorkingScreenView::SetAngleLimit(bool)	1
+C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/TouchGFX/gui/src/workingscreen_screen/WorkingScreenView.cpp:59:6:virtual void WorkingScreenView::SetATBLimit(bool)	1
+C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/TouchGFX/gui/src/workingscreen_screen/WorkingScreenView.cpp:65:6:virtual void WorkingScreenView::SetBypass(bool)	1

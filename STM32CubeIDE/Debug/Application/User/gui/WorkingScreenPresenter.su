@@ -1,0 +1,16 @@
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:15:18:virtual void ModelListener::newADCValue(int)	0	static
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:16:18:virtual void ModelListener::analogUpdate_ADC1(uint16_t)	0	static
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:17:18:virtual void ModelListener::analogUpdate_ADC3(uint16_t)	0	static
+../../TouchGFX/gui/include/gui/workingscreen_screen/WorkingScreenPresenter.hpp:36:13:WorkingScreenPresenter::~WorkingScreenPresenter()	0	static
+C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/TouchGFX/gui/src/workingscreen_screen/WorkingScreenPresenter.cpp:11:6:virtual void WorkingScreenPresenter::activate()	0	static
+C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/TouchGFX/gui/src/workingscreen_screen/WorkingScreenPresenter.cpp:21:6:virtual void WorkingScreenPresenter::newAngleValue(double)	0	static
+C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/TouchGFX/gui/src/workingscreen_screen/WorkingScreenPresenter.cpp:27:6:virtual void WorkingScreenPresenter::newLoadValue(double)	0	static
+C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/TouchGFX/gui/src/workingscreen_screen/WorkingScreenPresenter.cpp:33:6:virtual void WorkingScreenPresenter::newRadiusValue(double)	0	static
+C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/TouchGFX/gui/src/workingscreen_screen/WorkingScreenPresenter.cpp:39:6:virtual void WorkingScreenPresenter::newSWLValue(double)	0	static
+C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/TouchGFX/gui/src/workingscreen_screen/WorkingScreenPresenter.cpp:45:6:virtual void WorkingScreenPresenter::SetOverload(bool)	0	static
+C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/TouchGFX/gui/src/workingscreen_screen/WorkingScreenPresenter.cpp:51:6:virtual void WorkingScreenPresenter::SetAngleLimit(bool)	0	static
+C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/TouchGFX/gui/src/workingscreen_screen/WorkingScreenPresenter.cpp:57:6:virtual void WorkingScreenPresenter::SetATBLimit(bool)	0	static
+C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/TouchGFX/gui/src/workingscreen_screen/WorkingScreenPresenter.cpp:63:6:virtual void WorkingScreenPresenter::SetBypass(bool)	0	static
+../../TouchGFX/gui/include/gui/workingscreen_screen/WorkingScreenPresenter.hpp:36:13:virtual WorkingScreenPresenter::~WorkingScreenPresenter()	8	static
+../../TouchGFX/gui/include/gui/workingscreen_screen/WorkingScreenPresenter.hpp:36:13:virtual void* WorkingScreenPresenter::_ZThn4_N22WorkingScreenPresenterD1Ev()	0	static
+C:/Users/watha/OneDrive/WorkingPlaces/WathonE/Projects/Datalogger/TouchGFX/gui/src/workingscreen_screen/WorkingScreenPresenter.cpp:5:1:WorkingScreenPresenter::WorkingScreenPresenter(WorkingScreenView&)	8	static
